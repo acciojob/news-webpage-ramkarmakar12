@@ -1,11 +1,19 @@
-/* General Styles */
+/* General Styling */
 body {
     margin: 0;
     font-family: Arial, sans-serif;
     background-color: #f5f5f5;
 }
 
-/* Header Styles */
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin: 20px auto;
+    max-width: 1100px;
+}
+
+/* Header */
 .header {
     background-color: #011e29;
     color: white;
@@ -13,56 +21,53 @@ body {
     padding: 20px 0;
 }
 
-/* Latest News Section Styles */
+/* Latest News Section */
 .latest-news-section {
-    background-color: #ffffff;
-    width: 80%;
-    margin: 20px auto;
+    background-color: white;
     padding: 20px;
+    width: 250px;
     border-radius: 8px;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.latest-news-section h2 {
-    margin-bottom: 15px;
-    color: #011e29;
-}
-
-.latest-news-section ul {
-    list-style-type: square;
-    padding-left: 20px;
-}
-
-.latest-news-section li {
-    margin: 8px 0;
-    font-size: 16px;
-}
-
-/* Pictorial News Section Styles */
-.pictorial-news-section {
-    background-color: #ffffff;
-    width: 80%;
-    margin: 20px auto;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+.latest-news-section h3 {
+    margin-bottom: 10px;
+    font-size: 18px;
     text-align: center;
 }
 
-.pictorial-news-section h2 {
-    color: #011e29;
-    margin-bottom: 15px;
+.latest-news-section ul {
+    list-style: disc;
+    padding-left: 20px;
 }
 
-.pictorial-news-section .images {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
+/* Main Article Section */
+.main-article {
+    background-color: white;
+    padding: 20px;
+    width: 500px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.main-article h2 {
+    margin-bottom: 10px;
+}
+
+/* Pictorial News Section */
+.pictorial-news-section {
+    background-color: white;
+    padding: 20px;
+    width: 250px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
 }
 
 .pictorial-news-section img {
-    width: 300px;
-    height: auto;
-    border-radius: 8px;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    border-radius: 4px;
 }
